@@ -1,0 +1,13 @@
+{
+  "project": "id-document-extractor",
+  "resource": "ids",
+  "samples": [
+    {
+      "id": "id1",
+      "doc_type": "passport",
+      "fields": {
+        "name": "Demo User"
+      }
+    }
+  ]
+}
