@@ -1,0 +1,13 @@
+[project]
+name = "id-document-extractor"
+version = "2.0.0"
+description = "Government ID parsing with name/DOB/id_number fields, per-field confidence, and verification status — simulated OCR text instead of on-device vision."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
